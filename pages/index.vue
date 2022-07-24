@@ -1,7 +1,5 @@
 <template>
   <v-container class="elevation-8 bg-background-darken h-100">
-    <h2 class="text-h2">Home page</h2>
-
     <v-btn color="primary">Button</v-btn>
     <v-btn color="accent">Button</v-btn>
     <v-btn color="secondary">Button</v-btn>
@@ -40,15 +38,3 @@
     <h2 class="text-h2">Home page</h2>
   </v-container>
 </template>
-
-<script lang="ts">
-import { defineComponent } from 'vue';
-
-export default defineComponent({
-  setup() {},
-
-  mounted() {
-    console.log(this.$vuetify.theme.current);
-  },
-});
-</script>
